@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CU Events</string>
+    <string name="about">
+        CU Events is developed by Devashish Thakur, It is an initiative taken so that no student will ever miss any workshop or seminar due to lack of information\n
+        \n
+        CU Events make sure that when ever any new worskhop or seminar is updated, you will get the notification
+        \n
+        Learn and Grow
+    </string>
+</resources>

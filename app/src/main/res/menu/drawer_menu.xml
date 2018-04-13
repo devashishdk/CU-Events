@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/home"
+            ></item>
+        <item
+            android:id="@+id/categories"
+            android:title="Categories"
+            android:icon="@drawable/categories"
+            >
+            <menu>
+                <item
+                    android:id="@+id/workshop"
+                    android:title="Workshop"
+                    android:icon="@drawable/workshop"></item>
+                <item
+                    android:id="@+id/seminars"
+                    android:title="Seminars"
+                    android:icon="@drawable/seminar"></item>
+                <item
+                    android:id="@+id/competitions"
+                    android:title="Competitions"
+                    android:icon="@drawable/competition"></item>
+            </menu>
+        </item>
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/contact"
+            android:title="Contact Us"
+            android:icon="@drawable/contact"
+            ></item>
+        <item
+            android:id="@+id/about"
+            android:title="About"
+            android:icon="@drawable/about"></item>
+        <item
+            android:id="@+id/share"
+            android:title="Share"
+            android:icon="@drawable/share"
+            ></item>
+    </group>
+</menu>
